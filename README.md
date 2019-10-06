@@ -1,5 +1,5 @@
 # MissigLink
-Missing link game in OpenGL
+Missing link game in OpenGL (Jogo Elo Maluco)
 
 #Install the following packages:
 
