@@ -103,29 +103,9 @@ int main(int argc, char **argv)
           }
      }
 
-     eresult = doc.LoadFile("./data/EloMaluco_estadoVencedor.xml");
-     estadoAtual = doc.FirstChildElement("EloMaluco")->FirstChildElement("EstadoAtual");
-     linhas = estadoAtual->FirstChildElement("row");
-     colunas = linhas->FirstChildElement("col");
-
-     for (int i = 0; i < 4; i++)
-     {
-          for (int j = 0; j < 4; j++)
-          {
-               win[i][j] = colunas->GetText();
-               if (j < 3)
-                    colunas = colunas->NextSiblingElement();
-          }
-          if (i < 3)
-          {
-               linhas = linhas->NextSiblingElement();
-               colunas = linhas->FirstChildElement("col");
-          }
-     }
-
      int time = 0;
 
-     Application app(argc, argv, estado, win);
+     Application app(argc, argv, estado);
      ptr_ = &app;
 
      arcball_reset();

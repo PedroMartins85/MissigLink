@@ -31,7 +31,7 @@ public:
 	/*!
 	* \brief Construtor da classe Application
 	 */
-	Application(int argc, char** argv, string state[4][4], string state_win[4][4]);
+	Application(int argc, char** argv, string state[4][4]);
 	/*!
 	* \brief Destrutor da classe Application
 	 */
@@ -86,7 +86,6 @@ private:
 	GLint view_w;
 	GLint view_h;
 	string state[4][4];
-	string state_win[4][4];
 
 	list<Objects*> list_;
 

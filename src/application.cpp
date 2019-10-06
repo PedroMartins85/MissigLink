@@ -24,13 +24,12 @@ int h1 = 0;
 
 ///////////////////////////////////////////////////////////////////////
 // Application Class
-Application::Application(int argc, char **argv, string state[4][4], string state_win[4][4])
+Application::Application(int argc, char **argv, string state[4][4])
 {
 
     for (int i=0; i<4;i++){
         for (int j=0;j<4;j++){
             this->state[i][j] = state[i][j];
-            this->state_win[i][j] = state_win[i][j];
         } 
     }
     this->flag = check_win();
