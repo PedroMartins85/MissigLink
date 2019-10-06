@@ -1,0 +1,3 @@
+/home/kelvz/Documents/projeto1doc/CMakeFiles/rebuild_cache.dir
+/home/kelvz/Documents/projeto1doc/CMakeFiles/Elo_Maluco.dir
+/home/kelvz/Documents/projeto1doc/CMakeFiles/edit_cache.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kelvz/Documents/projeto1doc/src/tga.c
+tga.h
+/home/kelvz/Documents/projeto1doc/src/tga.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+GL/glut.h
+-
+
+/home/kelvz/Documents/projeto1doc/src/tga.h
+
