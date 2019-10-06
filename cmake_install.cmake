@@ -1,8 +1,8 @@
-# Install script for directory: /home/kelvz/Documents/projeto1doc
+# Install script for directory: /home/kelvz/Documents/MissingLink
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kelvz/Documents/projeto1doc/bin")
+  set(CMAKE_INSTALL_PREFIX "/home/kelvz/Documents/MissingLink/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kelvz/Documents/projeto1doc/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kelvz/Documents/MissingLink/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

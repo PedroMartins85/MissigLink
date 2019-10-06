@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kelvz/Documents/projeto1doc
+CMAKE_SOURCE_DIR = /home/kelvz/Documents/MissingLink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kelvz/Documents/projeto1doc
+CMAKE_BINARY_DIR = /home/kelvz/Documents/MissingLink
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Elo_Maluco.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Elo_Maluco.dir/flags.make
 
 CMakeFiles/Elo_Maluco.dir/src/main.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/main.cpp.o -c /home/kelvz/Documents/projeto1doc/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/main.cpp.o -c /home/kelvz/Documents/MissingLink/src/main.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/main.cpp > CMakeFiles/Elo_Maluco.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/main.cpp > CMakeFiles/Elo_Maluco.dir/src/main.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/main.cpp -o CMakeFiles/Elo_Maluco.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/main.cpp -o CMakeFiles/Elo_Maluco.dir/src/main.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Elo_Maluco.dir/src/main.cpp.o.provides.build: CMakeFiles/Elo_Maluco.d
 
 CMakeFiles/Elo_Maluco.dir/src/application.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/application.cpp.o: src/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/application.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/application.cpp.o -c /home/kelvz/Documents/projeto1doc/src/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/application.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/application.cpp.o -c /home/kelvz/Documents/MissingLink/src/application.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/application.cpp > CMakeFiles/Elo_Maluco.dir/src/application.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/application.cpp > CMakeFiles/Elo_Maluco.dir/src/application.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/application.cpp -o CMakeFiles/Elo_Maluco.dir/src/application.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/application.cpp -o CMakeFiles/Elo_Maluco.dir/src/application.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/application.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Elo_Maluco.dir/src/application.cpp.o.provides.build: CMakeFiles/Elo_M
 
 CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o: src/Objects.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o -c /home/kelvz/Documents/projeto1doc/src/Objects.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o -c /home/kelvz/Documents/MissingLink/src/Objects.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/Objects.cpp > CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/Objects.cpp > CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/Objects.cpp -o CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/Objects.cpp -o CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Elo_Maluco.dir/src/Objects.cpp.o.provides.build: CMakeFiles/Elo_Maluc
 
 CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o: src/polygon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o -c /home/kelvz/Documents/projeto1doc/src/polygon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o -c /home/kelvz/Documents/MissingLink/src/polygon.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/polygon.cpp > CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/polygon.cpp > CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/polygon.cpp -o CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/polygon.cpp -o CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Elo_Maluco.dir/src/polygon.cpp.o.provides.build: CMakeFiles/Elo_Maluc
 
 CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o: src/tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o -c /home/kelvz/Documents/projeto1doc/src/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o -c /home/kelvz/Documents/MissingLink/src/tinyxml2.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/tinyxml2.cpp > CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/tinyxml2.cpp > CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/tinyxml2.cpp -o CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/tinyxml2.cpp -o CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Elo_Maluco.dir/src/tinyxml2.cpp.o.provides.build: CMakeFiles/Elo_Malu
 
 CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o: src/arcball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o -c /home/kelvz/Documents/projeto1doc/src/arcball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o -c /home/kelvz/Documents/MissingLink/src/arcball.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/arcball.cpp > CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/arcball.cpp > CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/arcball.cpp -o CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/arcball.cpp -o CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Elo_Maluco.dir/src/arcball.cpp.o.provides.build: CMakeFiles/Elo_Maluc
 
 CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o: CMakeFiles/Elo_Maluco.dir/flags.make
 CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o: src/tga.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o -c /home/kelvz/Documents/projeto1doc/src/tga.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o -c /home/kelvz/Documents/MissingLink/src/tga.cpp
 
 CMakeFiles/Elo_Maluco.dir/src/tga.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elo_Maluco.dir/src/tga.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/projeto1doc/src/tga.cpp > CMakeFiles/Elo_Maluco.dir/src/tga.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelvz/Documents/MissingLink/src/tga.cpp > CMakeFiles/Elo_Maluco.dir/src/tga.cpp.i
 
 CMakeFiles/Elo_Maluco.dir/src/tga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elo_Maluco.dir/src/tga.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/projeto1doc/src/tga.cpp -o CMakeFiles/Elo_Maluco.dir/src/tga.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelvz/Documents/MissingLink/src/tga.cpp -o CMakeFiles/Elo_Maluco.dir/src/tga.cpp.s
 
 CMakeFiles/Elo_Maluco.dir/src/tga.cpp.o.requires:
 
@@ -252,7 +252,7 @@ Elo_Maluco: /usr/lib/x86_64-linux-gnu/libglut.so
 Elo_Maluco: /usr/lib/x86_64-linux-gnu/libXmu.so
 Elo_Maluco: /usr/lib/x86_64-linux-gnu/libXi.so
 Elo_Maluco: CMakeFiles/Elo_Maluco.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kelvz/Documents/projeto1doc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Elo_Maluco"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kelvz/Documents/MissingLink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Elo_Maluco"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Elo_Maluco.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -275,6 +275,6 @@ CMakeFiles/Elo_Maluco.dir/clean:
 .PHONY : CMakeFiles/Elo_Maluco.dir/clean
 
 CMakeFiles/Elo_Maluco.dir/depend:
-	cd /home/kelvz/Documents/projeto1doc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kelvz/Documents/projeto1doc /home/kelvz/Documents/projeto1doc /home/kelvz/Documents/projeto1doc /home/kelvz/Documents/projeto1doc /home/kelvz/Documents/projeto1doc/CMakeFiles/Elo_Maluco.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kelvz/Documents/MissingLink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kelvz/Documents/MissingLink /home/kelvz/Documents/MissingLink /home/kelvz/Documents/MissingLink /home/kelvz/Documents/MissingLink /home/kelvz/Documents/MissingLink/CMakeFiles/Elo_Maluco.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Elo_Maluco.dir/depend
 
